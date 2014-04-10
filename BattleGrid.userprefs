@@ -1,15 +1,18 @@
 ﻿<Properties>
-  <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug" PreferredExecutionTarget="MonoDevelop.Default" />
+  <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug" />
   <MonoDevelop.Ide.Workbench ActiveDocument="Assets\TESTTOSEEIFGITWORKS.cs">
     <Files>
-      <File FileName="Assets\TESTTOSEEIFGITWORKS.cs" Line="19" Column="1" />
+      <File FileName="Assets\TESTTOSEEIFGITWORKS.cs" Line="1" Column="1" />
     </Files>
     <Pads>
       <Pad Id="ProjectPad">
         <State expanded="True">
-          <Node name="Assembly-CSharp" expanded="True" />
+          <Node name="Assembly-CSharp" expanded="True">
+            <Node name="References" expanded="True" />
+            <Node name="TESTTOSEEIFGITWORKS.cs" selected="True" />
+          </Node>
           <Node name="Assembly-CSharp-firstpass" expanded="True" />
-          <Node name="Assembly-UnityScript-firstpass" expanded="True" selected="True" />
+          <Node name="Assembly-UnityScript-firstpass" expanded="True" />
         </State>
       </Pad>
     </Pads>

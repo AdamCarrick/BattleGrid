@@ -5,7 +5,7 @@
 	<Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
 	<ProductVersion>10.0.20506</ProductVersion>
 	<SchemaVersion>2.0</SchemaVersion>
-	<ProjectGuid>{F009CCC8-04BE-1DBC-2762-80E18FFA4834}</ProjectGuid>
+	<ProjectGuid>{C2340415-DF44-55C7-AE2B-3FC75992422E}</ProjectGuid>
 	<OutputType>Library</OutputType>
 	<AppDesignerFolder>Properties</AppDesignerFolder>
 	<RootNamespace></RootNamespace>
@@ -46,14 +46,18 @@
 	</Reference>
   </ItemGroup>
   <ItemGroup>
-     <Compile Include="Assets\TESTTOSEEIFGITWORKS.cs" />
+     <Compile Include="Assets\Bullet.cs" />
+     <Compile Include="Assets\EnemyAI.cs" />
+     <Compile Include="Assets\MouseLook.cs" />
+     <Compile Include="Assets\PlayerMovement.cs" />
+     <Compile Include="Assets\Shooting.cs" />
      <Compile Include="Assets\Tank.cs" />
   </ItemGroup>
   <ItemGroup>
     <ProjectReference Include="Assembly-CSharp-firstpass.csproj">
-      <Project>{074435EB-6D75-831B-984F-E72580E1FE98}</Project>      <Name>Assembly-CSharp-firstpass</Name>    </ProjectReference>
+      <Project>{C0E3831B-2FC7-4FF0-37F8-3C682A225EDB}</Project>      <Name>Assembly-CSharp-firstpass</Name>    </ProjectReference>
     <ProjectReference Include="Assembly-UnityScript-firstpass.unityproj">
-      <Project>{961C8E6C-2855-0903-52DC-F58BD6739ADB}</Project>      <Name>Assembly-UnityScript-firstpass</Name>    </ProjectReference>
+      <Project>{18150BE6-CD5E-B1B7-618F-A9371447816F}</Project>      <Name>Assembly-UnityScript-firstpass</Name>    </ProjectReference>
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
   <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
